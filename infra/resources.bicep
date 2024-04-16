@@ -313,7 +313,7 @@ resource postgresServer 'Microsoft.DBforPostgreSQL/flexibleServers@2022-01-20-pr
     administratorLogin: 'postgresadmin'
     administratorLoginPassword: databasePassword
     storage: {
-      storageSizeGB: 128
+      storageSizeGB: 10
     }
     backup: {
       backupRetentionDays: 7
